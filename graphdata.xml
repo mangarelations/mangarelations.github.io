@@ -1,0 +1,50 @@
+<mxGraphModel>
+        <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                        <mxCell id="manga_1" customId="manga_1" value="Naruto" vertex="1" parent="1">
+        <mxGeometry x="0" y="0" width="80" height="70" as="geometry"/>
+        </mxCell>
+<mxCell id="manga_2" customId="manga_2" value="Ninku" vertex="1" parent="1">
+        <mxGeometry x="0" y="0" width="80" height="70" as="geometry"/>
+        </mxCell>
+<mxCell id="manga_3" customId="manga_3" value="Hunter X Hunter" vertex="1" parent="1">
+        <mxGeometry x="0" y="0" width="80" height="70" as="geometry"/>
+        </mxCell>
+<mxCell id="manga_4" customId="manga_4" value="Dragon Ball" vertex="1" parent="1">
+        <mxGeometry x="0" y="0" width="80" height="70" as="geometry"/>
+        </mxCell>
+<mxCell id="manga_5" customId="manga_5" value="Devilman" vertex="1" parent="1">
+        <mxGeometry x="0" y="0" width="80" height="70" as="geometry"/>
+        </mxCell>
+<mxCell id="manga_6" customId="manga_6" value="Chainsaw Man" vertex="1" parent="1">
+        <mxGeometry x="0" y="0" width="80" height="70" as="geometry"/>
+        </mxCell>
+<mxCell id="manga_7" customId="manga_7" value="Gurren Laagan" vertex="1" parent="1">
+        <mxGeometry x="0" y="0" width="80" height="70" as="geometry"/>
+        </mxCell>
+<mxCell id="manga_8" customId="manga_8" value="Gunbuster" vertex="1" parent="1">
+        <mxGeometry x="0" y="0" width="80" height="70" as="geometry"/>
+        </mxCell>
+<mxCell id="manga_9" customId="manga_9" value="Xabungle" vertex="1" parent="1">
+        <mxGeometry x="0" y="0" width="80" height="70" as="geometry"/>
+        </mxCell>
+<mxCell id="manga_10" customId="manga_10" value="Gundam" vertex="1" parent="1">
+        <mxGeometry x="0" y="0" width="80" height="70" as="geometry"/>
+        </mxCell>
+<mxCell id="manga_11" customId="manga_11" value="Getter Robo" vertex="1" parent="1">
+        <mxGeometry x="0" y="0" width="80" height="70" as="geometry"/>
+        </mxCell>
+
+                        <mxCell id="edge_1" customId="edge_1" value="" edge="1" parent="1" source="manga_2" target="manga_1">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="edge_2" customId="edge_2" value="" edge="1" parent="1" source="manga_4" target="manga_1">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="edge_3" customId="edge_3" value="" edge="1" parent="1" source="manga_3" target="manga_1">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+
+        </root>
+</mxGraphModel>

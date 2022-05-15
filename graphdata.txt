@@ -1,0 +1,20 @@
+# Custom file format for fileio.html (comments start with #, all vertices first)
+
+# Vertices (id: label)
+1: Naruto
+2: Ninku
+3: Hunter X Hunter
+4: Dragon Ball
+5: Devilman
+6: Chainsaw Man
+7: Gurren Laagan
+8: Gunbuster
+9: Xabungle
+10: Gundam
+11: Getter Robo
+
+
+# Edges (source-id,target-id: label)
+2,1: null
+4,1: null
+3,1: null
