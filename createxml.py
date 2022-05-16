@@ -39,8 +39,13 @@ def get_cells_txt(manga_list):
 
 def get_edges_txt(relations_list):
 	cells = ""
+	sources = ""
 	for entry in relations_list:
-		cells += f"{entry['inspired_by_id']},{entry['target_manga_id']}: null\n"
+		sources = ""
+		for source in entry["sources"].split(","): 
+			sources += f"""<a href="{source}">[link]</a> """
+		reason = entry["reason"].replace("\"", "'")
+		cells += f"""{entry['inspired_by_id']},{entry['target_manga_id']}: <h1 onclick="displayInfo('{reason}')">test</h1>\n"""
 	return cells
 
 xmlbase = f"""

@@ -12,9 +12,13 @@
 9: Xabungle
 10: Gundam
 11: Getter Robo
+12: Jojo's Bizzare Adventure
+13: Yuyu Hakusho
 
 
 # Edges (source-id,target-id: label)
-2,1: null
-4,1: null
-3,1: null
+2,1: <h1 onclick="displayInfo('Kishimoto has stated that he started Naruto because he wanted to read what happens next in Ninku.')">test</h1>
+4,1: <h1 onclick="displayInfo('Kishimoto has stated that Toriyama Akira is \'a god-like figure\' to him.')">test</h1>
+3,1: <h1 onclick="displayInfo('Kishimoto has stated that he took inspiration from Hunter x Hunter while writing Naruto.')">test</h1>
+12,3: <h1 onclick="displayInfo('Togashi Yoshihiro has stated that Jojo has a huge influence on all his works')">test</h1>
+12,13: <h1 onclick="displayInfo('Togashi Yoshihiro has stated that Jojo has a huge influence on all his works')">test</h1>
