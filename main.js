@@ -44,7 +44,7 @@
         };
         
         // Larger grid size yields cleaner layout result
-        graph.gridSize = 1;
+        graph.gridSize = 50;
       
         // Creates a layout algorithm to be used
         // with the graph
@@ -58,7 +58,7 @@
         layout.forceConstant = 350;
         //check overlapping
         //layout.MinDistanceLimit = 10050;
-        layout.maxIterations = 1000000;
+        layout.maxIterations = 100;
       
         
         // Load cells and layouts the graph
@@ -188,7 +188,7 @@
       console.log(geometry)
       var x = geometry.cellBounds["x"];
       var y = geometry.cellBounds["y"];
-      graph.getView().setScale(.5);
+      //graph.getView().setScale(.5);
       graph.getView().setTranslate(x / 2, y / 2);
       console.log(graph.getMaximumGraphBounds());
       console.log(x);
