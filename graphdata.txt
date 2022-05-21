@@ -1,24 +1,20 @@
 # Custom file format for fileio.html (comments start with #, all vertices first)
 
 # Vertices (id: label)
-1: Naruto
-2: Ninku
-3: Hunter X Hunter
-4: Dragon Ball
-5: Devilman
-6: Chainsaw Man
-7: Gurren Laagan
-8: Gunbuster
-9: Xabungle
-10: Gundam
-11: Getter Robo
-12: Jojo's Bizzare Adventure
-13: Yuyu Hakusho
+4| 桐山 光侍<br>Kōji Kiriyama<br>Debut Year: 1989<br>Manga: Ninku
+5| 岸本 斉史<br>Masashi Kishimoto<br>Debut Year: 1997<br>Manga: Naruto
+6| 冨樫 義博<br>Yoshihiro Togashi<br>Debut Year: 1986<br>Manga: Hunter × Hunter, 幽☆遊☆白書
+7| 荒木 飛呂彦<br>Hirohiko Araki<br>Debut Year: 1980<br>Manga: JoJo's Bizarre Adventure
+8| 鳥山 明<br>Akira Toriyama<br>Debut Year: 1978<br>Manga: Dragon Ball, Dr. Slump
+9| 大友 克洋<br>Katsuhiro Otomo<br>Debut Year: 1973<br>Manga: Akira
+10| 武内 直子<br>Naoko Takeuchi<br>Debut Year: 1986<br>Manga: Salor Moon
+11| 志賀 公江<br>Kimie Shiga<br>Debut Year: 1967<br>Manga: Sumasshu wo Kimero!
 
 
 # Edges (source-id,target-id: label)
-2,1: <h1 onclick="displayInfo('Kishimoto has stated that he started Naruto because he wanted to read what happens next in Ninku.')">test</h1>
-4,1: <h1 onclick="displayInfo('Kishimoto has stated that Toriyama Akira is \'a god-like figure\' to him.')">test</h1>
-3,1: <h1 onclick="displayInfo('Kishimoto has stated that he took inspiration from Hunter x Hunter while writing Naruto.')">test</h1>
-12,3: <h1 onclick="displayInfo('Togashi Yoshihiro has stated that Jojo has a huge influence on all his works')">test</h1>
-12,13: <h1 onclick="displayInfo('Togashi Yoshihiro has stated that Jojo has a huge influence on all his works')">test</h1>
+4,5| <h1 onclick="displayInfo('Kishimoto has stated that he started Naruto because he wanted to read what happens next in Ninku.')">test</h1>
+8,5| <h1 onclick="displayInfo('Kishimoto has stated that Toriyama Akira is 'a god-like figure' to him.')">test</h1>
+6,5| <h1 onclick="displayInfo('Kishimoto has stated that he took inspiration from Hunter x Hunter while writing Naruto.')">test</h1>
+7,6| <h1 onclick="displayInfo('Togashi Yoshihiro has stated that Jojo has a huge influence on all his works')">test</h1>
+9,5| <h1 onclick="displayInfo('Kishimoto has stated that Akira had a profound influence on his art style, and he spent his middle school years imitating his art style.')">test</h1>
+11,10| <h1 onclick="displayInfo('Naoko Takeuchi has stated that she is a huge fan of Kimie Shiga's 'Sumasshu wo Kimero!'.')">test</h1>

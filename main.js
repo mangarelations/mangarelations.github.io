@@ -44,12 +44,15 @@
         };
         
         // Larger grid size yields cleaner layout result
-        graph.gridSize = 20;
+        graph.gridSize = 1;
       
         // Creates a layout algorithm to be used
         // with the graph
         var layout = new mxFastOrganicLayout(graph);
         //var layout = new mxParallelEdgeLayout(graph);
+        document.body.appendChild(mxUtils.button('Go To Random Author',function(evt) {
+          navigateToRandomCell(graph)
+        }));
 
         // Moves stuff wider apart than usual
         layout.forceConstant = 350;
@@ -66,7 +69,7 @@
           parse(graph, 'graphdata.txt');
   
           // Loads the mxGraph file format (XML file)
-          //read(graph, 'fileio.xml');
+          //read(graph, 'test.xml');
                     
           // Gets the default parent for inserting new cells. This
           // is normally the first child of the root (ie. layer 0).
@@ -74,14 +77,13 @@
 
           // Executes the layout
           layout.execute(parent);
-          console.log(layout.iteration);
 
           //this is for the xml, use to generate when you have a good graph
           var enc = new mxCodec(mxUtils.createXmlDocument());
           var node = enc.encode(graph.getModel());
           var xml = mxUtils.getXml(node);
-          console.log(xml)
-          console.log("test")
+          console.log(xml);
+
         }
         finally
         {
@@ -136,7 +138,7 @@
         for (var i=0; i<lines.length; i++)
         {
           // Ignores comments (starting with #)
-          var colon = lines[i].indexOf(':');
+          var colon = lines[i].indexOf('|');
   
           if (lines[i].substring(0, 1) != "#" ||
             colon == -1)
@@ -150,7 +152,7 @@
               
               if (key.length > 0)
               {
-                vertices[key] = graph.insertVertex(parent, null, value, 0, 0, 200, 40);
+                vertices[key] = graph.insertVertex(parent, null, value, 0, 0, 200, 100);
               }
             }
             else if (comma < colon)
@@ -178,13 +180,17 @@
         graph.getModel().endUpdate();
       }
     };
-    
-    // Parses the mxGraph XML file format
-    function read(graph, filename)
-    {
-      var req = mxUtils.load(filename);
-      var root = req.getDocumentElement();
-      var dec = new mxCodec(root.ownerDocument);
-      
-      dec.decode(root, graph.getModel());
-    };
+
+    function navigateToRandomCell(graph) {
+      cells = graph.getChildVertices(graph.getDefaultParent());
+      randomCell = cells[5];
+      geometry = graph.getView().getState(randomCell)
+      console.log(geometry)
+      var x = geometry.cellBounds["x"];
+      var y = geometry.cellBounds["y"];
+      graph.getView().setScale(.5);
+      graph.getView().setTranslate(x / 2, y / 2);
+      console.log(graph.getMaximumGraphBounds());
+      console.log(x);
+      console.log(y);
+    }
