@@ -18,6 +18,8 @@
 18| 千葉 徹彌<br>Tetsuya Chiba<br>Debut Year: 1958<br>Manga: Ashita no Joe , Notari Matsutarō
 19| 赤塚 不二夫<br>Fujio Akatsuka<br>Debut Year: 1958<br>Manga: Osomatsu-kun, Tensai Bakabon, Himitsu no Akko-chan
 20| 白土 三平<br>Sanpei Shirato<br>Debut Year: 1957<br>Manga: Kamui, Tales of the Ninja
+21| 藤本タツキ<br>Tatsuki Fujimoto<br>Debut Year: 2012<br>Manga: Chainsaw Man
+22| 沙村 広明<br>Hiroaki Samura<br>Debut Year: 1993<br>Manga: Blade of the Immortal
 
 
 # Edges (source-id,target-id: label)
@@ -60,3 +62,6 @@ Akatsuka’s gags made me laugh so much that I would cry, and that’s when I le
 18,16| <h1 onclick="displayInfo('Hara: Chiba’s work taught me the power of characters and the depth of human drama. If the characters are interesting, it’s as if they can move and progress the story on their own. When I met him for the first time and he told me, “Hara-kun, you’re doing a great job,” it was really hard to hold back the tears that were welling up in my eyes.')">test</h1>
 17,16| <h1 onclick="displayInfo('Hara: Ikegami taught me the power of gekiga. His ability to portray each character with realism and luster is truly breathtaking. He has been the biggest influence on me in terms of my art. I truly think he is the greatest in Japan when it comes to drawing cool-looking men.”')">test</h1>
 20,7| <h1 onclick="displayInfo('Hara has stated that Sanpei Shirato's work heavily influenced him as he became a pro Mangaka')">test</h1>
+22,21| <h1 onclick="displayInfo('Fujimoto has stated that his goal is to draw like Hiroaki Samura, who has a 'real' feeling to his drawings, and 'you can always tell what the characters are doing at any given moment'.')">test</h1>
+
+
