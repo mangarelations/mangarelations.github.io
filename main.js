@@ -15,7 +15,7 @@
         // Creates the graph inside the given container
         var graph = new mxGraph(container);
         
-        graph.setEnabled(false);
+        graph.setEnabled(true);
         graph.setPanning(true);
         graph.setTooltips(true);
         graph.panningHandler.useLeftButtonForPanning = true;
@@ -44,7 +44,7 @@
         };
         
         // Larger grid size yields cleaner layout result
-        graph.gridSize = 50;
+        graph.gridSize = 80;
       
         // Creates a layout algorithm to be used
         // with the graph
@@ -58,7 +58,7 @@
         layout.forceConstant = 350;
         //check overlapping
         //layout.MinDistanceLimit = 10050;
-        layout.maxIterations = 100;
+        layout.maxIterations = 10000;
       
         
         // Load cells and layouts the graph

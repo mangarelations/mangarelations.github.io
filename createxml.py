@@ -68,7 +68,8 @@ def get_edges_txt(relations_list):
 		for source in entry["sources"].split(","): 
 			sources += f"""<a href="{source}">[link]</a> """
 		reason = entry["reasons"].replace("\"", "'")
-		cells += f"""{entry['inspired_by_author_id']},{entry['author_id']}| <h1 onclick="displayInfo('{reason}')">test</h1>\n"""
+		#cells += f"""{entry['inspired_by_author_id']},{entry['author_id']}| <h1 onclick="displayInfo('{reason}')">test</h1>\n"""
+		cells += f"""{entry['inspired_by_author_id']},{entry['author_id']}| \n"""
 	return cells
 
 xmlbase = f"""

@@ -18,50 +18,43 @@
 18| 千葉 徹彌<br>Tetsuya Chiba<br>Debut Year: 1958<br>Manga: Ashita no Joe , Notari Matsutarō
 19| 赤塚 不二夫<br>Fujio Akatsuka<br>Debut Year: 1958<br>Manga: Osomatsu-kun, Tensai Bakabon, Himitsu no Akko-chan
 20| 白土 三平<br>Sanpei Shirato<br>Debut Year: 1957<br>Manga: Kamui, Tales of the Ninja
-21| 藤本タツキ<br>Tatsuki Fujimoto<br>Debut Year: 2012<br>Manga: Chainsaw Man
+21| 藤本タツキ<br>Tatsuki Fujimoto<br>Debut Year: 2011<br>Manga: Chainsaw Man
 22| 沙村 広明<br>Hiroaki Samura<br>Debut Year: 1993<br>Manga: Blade of the Immortal
+23| 大場 つぐみ<br>Tsugumi Ohba<br>Debut Year: 2003<br>Manga: Death Note, Bakuman, Platinum End
+24| 藤子 不二雄<br>Fujiko Fujio<br>Debut Year: 1951<br>Manga: Doraemon, The Monster Kid, Ninja Hattori
+25| 小畑 健<br>Takeshi Obata<br>Debut Year: 1985<br>Manga: Death Note, Hikaru no Go, Bakuman, Platinum End
+26| 永井 豪<br>Go Nagai<br>Debut Year: 1967<br>Manga: Cutie Honey, Devilman, Harenchi Gakuen, Mazinger Z
+27| 高橋 留美子<br>Rumiko Takahashi<br>Debut Year: 1978<br>Manga: Urusei Yatsura, Maison Ikkoku, Ranma ½, Inuyasha, Mermaid Saga, Rin-ne
 
 
 # Edges (source-id,target-id: label)
-4,5| <h1 onclick="displayInfo('Kishimoto has stated that he started Naruto because he wanted to read what happens next in Ninku.')">test</h1>
-8,5| <h1 onclick="displayInfo('Kishimoto has stated that Toriyama Akira is 'a god-like figure' to him.')">test</h1>
-6,5| <h1 onclick="displayInfo('Kishimoto has stated that he took inspiration from Hunter x Hunter while writing Naruto.')">test</h1>
-7,6| <h1 onclick="displayInfo('Togashi Yoshihiro has stated that Jojo has a huge influence on all his works')">test</h1>
-9,5| <h1 onclick="displayInfo('Kishimoto has stated that Akira had a profound influence on his art style, and he spent his middle school years imitating his art style.')">test</h1>
-11,10| <h1 onclick="displayInfo('Naoko Takeuchi has stated that she is a huge fan of Kimie Shiga's 'Sumasshu wo Kimero!'.')">test</h1>
-13,12| <h1 onclick="displayInfo('Urasawa cited Osamu Tezuka as one of his heroes, being particularly fond of his manga Phoenix.' The Greatest Robot on Earth' and 'The Artificial Sun' arcs of Tezuka's Astro Boy were his first experiences with manga at four or five years old.')">test</h1>
-9,12| <h1 onclick="displayInfo('Fusanosuke Natsume said that prior to entering university, Urasawa's style showed influence from Shinji Nagashima and Osamu Tezuka's 1970s work, but went on to claim that in 1979 it became aligned with that of Katsuhiro Otomo.')">test</h1>
-13,9| <h1 onclick="displayInfo('Ootomo: “In general, I try to do homages in my work from the favorite titles I read as a kid. For me, there were three big manga authors I really respected; Osamu Tezuka, Shotaro Ishinomori and Mitsuteru Yokoyama.
-
-“So my homage for Tezuka was in the manga Fireball, where the main computer is called 'ATOM'. For Ishinomori, there was Ecchan in Domu, who was a reference to Sarutobi Ecchan. That left Yokoyama, so I tried to do my homage to him in Akira. Specifically, I had the character Akira be the number 28 in the manga, which was a direct reference to the mecha Tetsujin 28-go. I also used numbers 25, 26 and 27 from that series too.
-
-“What's more, the grand plot for Akira is about an ultimate weapon developed during wartime and found during a more peaceful era. So the accidents and story develop around that ultimate weapon. If you know, Tetsujin 28-go then this is the same overall plot.”
-
-While Otomo had already directed anime prior to Akira, the movie ended up being an immense undertaking. However, he didn’t think it was very good when he saw the first rush of the movie.')">test</h1>
-14,9| <h1 onclick="displayInfo('Ootomo: “In general, I try to do homages in my work from the favorite titles I read as a kid. For me, there were three big manga authors I really respected; Osamu Tezuka, Shotaro Ishinomori and Mitsuteru Yokoyama.
-
-“So my homage for Tezuka was in the manga Fireball, where the main computer is called 'ATOM'. For Ishinomori, there was Ecchan in Domu, who was a reference to Sarutobi Ecchan. That left Yokoyama, so I tried to do my homage to him in Akira. Specifically, I had the character Akira be the number 28 in the manga, which was a direct reference to the mecha Tetsujin 28-go. I also used numbers 25, 26 and 27 from that series too.
-
-“What's more, the grand plot for Akira is about an ultimate weapon developed during wartime and found during a more peaceful era. So the accidents and story develop around that ultimate weapon. If you know, Tetsujin 28-go then this is the same overall plot.”
-
-While Otomo had already directed anime prior to Akira, the movie ended up being an immense undertaking. However, he didn’t think it was very good when he saw the first rush of the movie.')">test</h1>
-15,9| <h1 onclick="displayInfo('Ootomo: “In general, I try to do homages in my work from the favorite titles I read as a kid. For me, there were three big manga authors I really respected; Osamu Tezuka, Shotaro Ishinomori and Mitsuteru Yokoyama.
-
-“So my homage for Tezuka was in the manga Fireball, where the main computer is called 'ATOM'. For Ishinomori, there was Ecchan in Domu, who was a reference to Sarutobi Ecchan. That left Yokoyama, so I tried to do my homage to him in Akira. Specifically, I had the character Akira be the number 28 in the manga, which was a direct reference to the mecha Tetsujin 28-go. I also used numbers 25, 26 and 27 from that series too.
-
-“What's more, the grand plot for Akira is about an ultimate weapon developed during wartime and found during a more peaceful era. So the accidents and story develop around that ultimate weapon. If you know, Tetsujin 28-go then this is the same overall plot.”
-
-While Otomo had already directed anime prior to Akira, the movie ended up being an immense undertaking. However, he didn’t think it was very good when he saw the first rush of the movie.')">test</h1>
-14,7| <h1 onclick="displayInfo(' Hirohiko Araki said that he was conscious of Yokoyama's hard-boiled style in that he sticks to suspense and describes hero characters drily. Araki also said that Jotaro Kujo wearing his school uniform in the desert has its roots in Yokoyama's Babel II, and that if he were to draw Stardust Crusaders over again, he would base the Stands on Tetsujin 28-go.')">test</h1>
-19,16| <h1 onclick="displayInfo('Hara: It was then that I also read Fujio Akatsuka’s manga, which led me to realize how wonderful manga is as a medium, how infinite universes can come to life in two dimensions. In addition to copying others’ characters, I would imagine what sort of monsters I wanted to appear and came up with my own.
-
-(sic)
-
-Akatsuka’s gags made me laugh so much that I would cry, and that’s when I learned the power of manga and just how fun it can be. The enemy characters' final lines in Fist of the North Star were inspired by him. They helped soften the blow of some of the more bloody, serious scenes.')">test</h1>
-15,16| <h1 onclick="displayInfo('Ishinomori’s work was sweeping across Japan and capturing the hearts of children at the time, and I was one of them. His designs for heroes and monsters were awesome, and it inspired me to never get lazy with character designs, even for ones who died off quickly.')">test</h1>
-18,16| <h1 onclick="displayInfo('Hara: Chiba’s work taught me the power of characters and the depth of human drama. If the characters are interesting, it’s as if they can move and progress the story on their own. When I met him for the first time and he told me, “Hara-kun, you’re doing a great job,” it was really hard to hold back the tears that were welling up in my eyes.')">test</h1>
-17,16| <h1 onclick="displayInfo('Hara: Ikegami taught me the power of gekiga. His ability to portray each character with realism and luster is truly breathtaking. He has been the biggest influence on me in terms of my art. I truly think he is the greatest in Japan when it comes to drawing cool-looking men.”')">test</h1>
-20,7| <h1 onclick="displayInfo('Hara has stated that Sanpei Shirato's work heavily influenced him as he became a pro Mangaka')">test</h1>
-22,21| <h1 onclick="displayInfo('Fujimoto has stated that his goal is to draw like Hiroaki Samura, who has a 'real' feeling to his drawings, and 'you can always tell what the characters are doing at any given moment'.')">test</h1>
-
-
+4,5|
+8,5|
+6,5|
+7,6|
+9,5|
+11,10|
+13,12|
+9,12|
+13,9|
+14,9|
+15,9|
+14,7|
+19,16|
+15,16|
+18,16|
+17,16|
+20,7|
+22,21|
+13,24|
+15,23|
+24,23|
+19,23|
+15,25|
+13,26|
+15,26|
+17,27|
+19,27|
+24,27|
+18,27|
+26,27|
