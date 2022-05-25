@@ -25,6 +25,11 @@
 25| 小畑 健<br>Takeshi Obata<br>Debut Year: 1985<br>Manga: Death Note, Hikaru no Go, Bakuman, Platinum End
 26| 永井 豪<br>Go Nagai<br>Debut Year: 1967<br>Manga: Cutie Honey, Devilman, Harenchi Gakuen, Mazinger Z
 27| 高橋 留美子<br>Rumiko Takahashi<br>Debut Year: 1978<br>Manga: Urusei Yatsura, Maison Ikkoku, Ranma ½, Inuyasha, Mermaid Saga, Rin-ne
+28| 三浦 建太郎<br>Kentaro Miura<br>Debut Year: 1985<br>Manga: Berserk
+29| 尾田 栄一郎<br>Eiichiro Oda<br>Debut Year: 1992<br>Manga: One Piece
+30| 高橋 陽一<br>Yōichi Takahashi<br>Debut Year: 1981<br>Manga: Captain Tsubasa, Hungry Heart: Wild Striker
+31| ハロルド作石<br>Harold Sakuishi<br>Debut Year: 1988<br>Manga: Beck
+32| 弐瓶 勉<br>Tsutomu Nihei<br>Debut Year: 1995<br>Manga: Abara, Blame!, Knights of Sidonia
 
 
 # Edges (source-id,target-id: label)
@@ -58,3 +63,10 @@
 24,27|
 18,27|
 26,27|
+16,28|
+26,28|
+8,29|
+24,29|
+30,29|
+24,31|
+32,21|
