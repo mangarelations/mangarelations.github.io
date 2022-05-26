@@ -5,6 +5,7 @@ var globalStyle;
 var currentlySelectedCell;
 var cells;
 var reasons = {};
+var highlightedCells = ["test"];
 function main(container)
 {
   // Checks if browser is supported
@@ -79,7 +80,6 @@ function main(container)
     insutructions.style.paddingLeft = "15%";
     insutructions.style.fontWeight = "bold";
     document.body.appendChild(insutructions);
-    console.log(insutructions);
 
     // Moves stuff wider apart than usual
     layout.forceConstant = 1200;
@@ -121,7 +121,15 @@ function main(container)
       graph.view.rendering = true;
       graph.refresh();
     }
+    graph.addListener(mxEvent.CLICK, function (sender, evt) {
 
+                var cell = evt.getProperty("cell"); // cell may be null
+                console.log("fsdda");
+                if (cell != null) {
+                    highlightCell(graph, cell);
+                }
+                evt.consume();
+            });
     graph.dblClick = function(evt, cell)
     {
       var mxe = new mxEventObject(mxEvent.DOUBLE_CLICK, 'event', evt, 'cell', cell);
@@ -275,6 +283,7 @@ function navigateToRandomCell(graph) {
   var rect = new mxRectangle(x - (width / scaleFactor), y - (height / scaleFactor), width * scaleFactor, height * scaleFactor);
 
   var style = graph.getModel().getStyle(randomCell);
+  console.log(style);
   var newStyle = mxUtils.setStyle(style, mxConstants.STYLE_STROKECOLOR,'red');
   var cs = new Array();
   cs[0] = randomCell;
@@ -282,4 +291,27 @@ function navigateToRandomCell(graph) {
 
   graph.zoomToRect(rect);
   currentlySelectedCell = randomCell;
+}
+
+function highlightCell(graph, cell) {
+  var style = graph.getModel().getStyle(cell);
+  console.log(style);
+  console.log("hello");
+  if (!highlightedCells.includes(cell) ){
+    highlightedCells.push(cell)
+    graph.setCellStyles(mxConstants.STYLE_STROKECOLOR, 'red', [cell])
+    graph.setCellStyles(mxConstants.STYLE_FILLCOLOR, 'red', [cell])
+  }
+  else {
+    graph.setCellStyle(globalStyle, [cell]);
+    removeFromArray(highlightedCells, cell);
+    consle.log(style);
+  }
+}
+
+function removeFromArray(arr, value) {
+   return arr.filter(function(theValue){
+       return theValue != value;
+   });
+ 
 }
