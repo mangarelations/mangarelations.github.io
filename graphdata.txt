@@ -30,6 +30,13 @@
 30| <b style="font-size: 24px;color: #06113C;">高橋 陽一</b><br><b style="font-size: 24px;color: #06113C;">Yōichi Takahashi</b><br><b>Debut Year:</b> 1981<br><b>Manga:</b> Captain Tsubasa, Hungry Heart: Wild Striker
 31| <b style="font-size: 24px;color: #06113C;">ハロルド作石</b><br><b style="font-size: 24px;color: #06113C;">Harold Sakuishi</b><br><b>Debut Year:</b> 1988<br><b>Manga:</b> Beck
 32| <b style="font-size: 24px;color: #06113C;">弐瓶 勉</b><br><b style="font-size: 24px;color: #06113C;">Tsutomu Nihei</b><br><b>Debut Year:</b> 1995<br><b>Manga:</b> Abara, Blame!, Knights of Sidonia
+33| <b style="font-size: 24px;color: #06113C;">板垣 恵介</b><br><b style="font-size: 24px;color: #06113C;">Keisuke Itagaki</b><br><b>Debut Year:</b> 1989<br><b>Manga:</b> Baki the Grappler
+34| <b style="font-size: 24px;color: #06113C;">板垣 巴留</b><br><b style="font-size: 24px;color: #06113C;">Paru Itagaki</b><br><b>Debut Year:</b> 2016<br><b>Manga:</b> Beastars
+35| <b style="font-size: 24px;color: #06113C;">谷口 ジロー</b><br><b style="font-size: 24px;color: #06113C;">Jiro Taniguchi</b><br><b>Debut Year:</b> 1978<br><b>Manga:</b> "Bocchan" no Jidai, Kodoku no Gourmet
+36| <b style="font-size: 24px;color: #06113C;">斎藤 隆夫</b><br><b style="font-size: 24px;color: #06113C;">Takao Saito</b><br><b>Debut Year:</b> 1956<br><b>Manga:</b> Golgo 13
+37| <b style="font-size: 24px;color: #06113C;">平田 弘史</b><br><b style="font-size: 24px;color: #06113C;">Hiroshi Hirata</b><br><b>Debut Year:</b> 1958<br><b>Manga:</b> Ai, Satsuma Gishiden, Chidaruma Kenpou - Onorera ni Tsugu
+38| <b style="font-size: 24px;color: #06113C;">村野 守美</b><br><b style="font-size: 24px;color: #06113C;">Moribi Murano</b><br><b>Debut Year:</b> 1960<br><b>Manga:</b> Hoero Bunbun, Kakine no Majo
+39| <b style="font-size: 24px;color: #06113C;">石川 球太</b><br><b style="font-size: 24px;color: #06113C;">Kyuuta Ishikawa</b><br><b>Debut Year:</b> 1955<br><b>Manga:</b> Kusahara no Aoki Ookami, Ookami Genghis Khan, Genjin Bibi
 
 
 # Edges (source-id,target-id: label)
@@ -71,3 +78,11 @@
 24,31| Fujio A stated that Sakuishi knows more about his autobiographical work "Manga Michi" than he himself does. He found this out when Sakuishi requested to meet him in person.
 32,21| Fujimoto has stated that Chainsawman aims to be an "evil FLCL" ad "A pop version of Abara".
 9,32| Nihei has said that he took inspiration from "Akira" and "Naucicaa of The Valley of The Wind" when writing "Knights of Sidonia" because of their worldbuilding, and the fact that all the smaller weapons used make sense in the world's context.
+33,34| Keisuke Itagaki is Paru Itagaki's father, and she came to him for advice on how to make it as a mangaka.
+35,33| Itagaki has stated Ryouichi Ikegami, Jiro Taniguchi, and Akira Toriyama to have a major influence on his art style
+17,33| Itagaki has stated Ryouichi Ikegami, Jiro Taniguchi, and Akira Toriyama to have a major influence on his art style
+8,33| Itagaki has stated Ryouichi Ikegami, Jiro Taniguchi, and Akira Toriyama to have a major influence on his art style
+36,35| Taniguchi has cited Hiroshi Hirata, Takao Saito, Moribi Murano, and Kyuuta Ishikawa as major influences
+37,35| Taniguchi has cited Hiroshi Hirata, Takao Saito, Moribi Murano, and Kyuuta Ishikawa as major influences
+38,35| Taniguchi has cited Hiroshi Hirata, Takao Saito, Moribi Murano, and Kyuuta Ishikawa as major influences
+39,35| Taniguchi has cited Hiroshi Hirata, Takao Saito, Moribi Murano, and Kyuuta Ishikawa as major influences
