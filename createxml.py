@@ -57,7 +57,7 @@ def get_cells_txt(author_list):
 			names_of_manga.append(manga["english_name"])
 		names_of_manga_to_str = ", ".join(str(x) for x in names_of_manga)
 		print("------------\n\n\n",names_of_manga_to_str,"------------\n\n\n")
-		cells += f"""{entry["id"]}| {entry["japanese_name"]}<br>{entry["english_name"]}<br>Debut Year: {entry["debut_year"]}<br>Manga: {names_of_manga_to_str}\n"""
+		cells += f"""{entry["id"]}| <b style="font-size: 24px;color: #06113C;">{entry["japanese_name"]}</b><br><b style="font-size: 24px;color: #06113C;">{entry["english_name"]}</b><br><b>Debut Year:</b> {entry["debut_year"]}<br><b>Manga:</b> {names_of_manga_to_str}\n"""
 	return cells
 
 def get_edges_txt(relations_list):
@@ -68,8 +68,9 @@ def get_edges_txt(relations_list):
 		for source in entry["sources"].split(","): 
 			sources += f"""<a href="{source}">[link]</a> """
 		reason = entry["reasons"].replace("\"", "'")
-		#cells += f"""{entry['inspired_by_author_id']},{entry['author_id']}| <h1 onclick="displayInfo('{reason}')">test</h1>\n"""
-		cells += f"""{entry['inspired_by_author_id']},{entry['author_id']}| \n"""
+		reason = entry["reasons"].replace("\n", "[break]")
+		cells += f"""{entry['inspired_by_author_id']},{entry['author_id']}| {reason} \n"""
+		#cells += f"""{entry['inspired_by_author_id']},{entry['author_id']}| \n"""
 	return cells
 
 xmlbase = f"""
