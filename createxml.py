@@ -95,3 +95,6 @@ txtbase = f"""# Custom file format for fileio.html (comments start with #, all v
 print(txtbase)
 print("\n\n\n\n")
 print(xmlbase)
+
+with open("graphdata.txt", "w", encoding='utf-8') as file1:
+    file1.write(txtbase)
