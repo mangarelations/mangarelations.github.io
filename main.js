@@ -295,8 +295,7 @@ function navigateToRandomCell(graph) {
 
 function highlightCell(graph, cell) {
   var style = graph.getModel().getStyle(cell);
-  console.log(style);
-  console.log("hello");
+  console.log(highlightedCells);
   if (!highlightedCells.includes(cell) ){
     highlightedCells.push(cell)
     graph.setCellStyles(mxConstants.STYLE_STROKECOLOR, 'red', [cell])
@@ -304,14 +303,16 @@ function highlightCell(graph, cell) {
   }
   else {
     graph.setCellStyle(globalStyle, [cell]);
-    removeFromArray(highlightedCells, cell);
+    highlightedCells = removeFromArray(highlightedCells, cell);
     consle.log(style);
   }
 }
 
 function removeFromArray(arr, value) {
-   return arr.filter(function(theValue){
-       return theValue != value;
-   });
- 
+   for (var i = 0; i < arr.length; i++) {
+    if (arr[i] === value) {
+      arr.splice(i, 1);
+    }
+  }
+  return arr; 
 }
