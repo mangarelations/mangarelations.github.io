@@ -304,7 +304,6 @@ function highlightCell(graph, cell) {
   else {
     graph.setCellStyle(globalStyle, [cell]);
     highlightedCells = removeFromArray(highlightedCells, cell);
-    consle.log(style);
   }
 }
 
