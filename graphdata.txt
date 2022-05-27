@@ -104,7 +104,7 @@
 41,4| Kiriyama has stated in an interview that he was influenced by the manga Dokaben. 
 42,4| Kiriyama has stated in an interview that "Otoko Ippiki Gaki Daishou" was the work that showed him what manga can be. 
 43,21| Fujimoto once tweeted that he was using a lot of elements from "Witches" in a chapter of Chainsaw Man. (Yes, the link is actually his twitter account. His official account is a troll account. I know, it's complicated...) 
-31,43| Igarashi has stated Doraemon to be one of his influences.  
+24,43| Igarashi has stated Doraemon to be one of his influences.  
 44,43| Igarashi has stated "Nausicaa of the Valley of the Wind" and "My Neighbor Totoro" to be some of his influences.  
 45,43| Igarashi has stated Yoshiharu Tsuge's "Munou no Hito" to be one of his influences.  
 46,43| Igarashi has stated Maamoru Oshii's movies inspired him to begin writing manga with no dialog. 
