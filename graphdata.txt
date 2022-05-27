@@ -45,6 +45,12 @@
 45| <b style="font-size: 24px;color: #06113C;">つげ義春</b><br><b style="font-size: 24px;color: #06113C;">Yoshiharu Tsuge</b><br><b>Debut Year:</b> 1955<br><b>Manga:</b> Screw Style, Gensenkan Shujin, Munou no Hito
 46| <b style="font-size: 24px;color: #06113C;">押井 守</b><br><b style="font-size: 24px;color: #06113C;">Mamoru Oshii</b><br><b>Debut Year:</b> 1977<br><b>Manga:</b> Angel's Egg
 47| <b style="font-size: 24px;color: #06113C;">杉浦日向子</b><br><b style="font-size: 24px;color: #06113C;">Hinako Sugiura</b><br><b>Debut Year:</b> 1980<br><b>Manga:</b> Miss Hokusai
+48| <b style="font-size: 24px;color: #06113C;">榎本 俊二</b><br><b style="font-size: 24px;color: #06113C;">Shunji Enomoto</b><br><b>Debut Year:</b> 1989<br><b>Manga:</b> Kirisuke to Jonny 499-giri, GOLDEN LUCKY, Enomoto: New Elements that Shake the World
+49| <b style="font-size: 24px;color: #06113C;">林田 球</b><br><b style="font-size: 24px;color: #06113C;">Q Hayashida</b><br><b>Debut Year:</b> 1999<br><b>Manga:</b> Dorohedoro
+50| <b style="font-size: 24px;color: #06113C;">芥見下々</b><br><b style="font-size: 24px;color: #06113C;">Gege Akutami</b><br><b>Debut Year:</b> 2014<br><b>Manga:</b> Jujutsu Kaisen
+51| <b style="font-size: 24px;color: #06113C;">久保 帯人</b><br><b style="font-size: 24px;color: #06113C;">Tite Kubo</b><br><b>Debut Year:</b> 1999<br><b>Manga:</b> Bleach, Burn the Witch, Zombiepowder.
+52| <b style="font-size: 24px;color: #06113C;">水木 しげる</b><br><b style="font-size: 24px;color: #06113C;">Shigeru Mizuki</b><br><b>Debut Year:</b> 1957<br><b>Manga:</b> GeGeGe no Kitarō, Onward Towards Our Noble Deaths, Akuma-kun, Shigeru Mizuki's Hitler
+53| <b style="font-size: 24px;color: #06113C;">車田 正美</b><br><b style="font-size: 24px;color: #06113C;">Masami Kurumada</b><br><b>Debut Year:</b> 1974<br><b>Manga:</b> Saint Seiya, Ring ni Kakero, Fūma no Kojirō, B't X
 
 
 # Edges (source-id,target-id: label)
@@ -103,3 +109,10 @@
 45,43| Igarashi has stated Yoshiharu Tsuge's "Munou no Hito" to be one of his influences.  
 46,43| Igarashi has stated Maamoru Oshii's movies inspired him to begin writing manga with no dialog. 
 47,43| Igarashi has stated he is a huge fan of "Miss Hokusai". 
+48,21| Fujimoto has stated he is a huge fan of Shunji Enomoto, and Chainsawman's chapter 60 title "Quanxi and the Fiend's 49-person massacre" is a homage to "Kirisuke to Jonny 499-giri". 
+49,21| Fujimoto has called Chainsawman a "Rip off of Dorohedoro and Jujutsu Kaisen". 
+50,21| Fujimoto has called Chainsawman a "Rip off of Dorohedoro and Jujutsu Kaisen". 
+51,50| Akutami is a vocal fan of bleach. When asked about how they comes up with ability names, he responded by saying, "Read Bleach!". 
+52,51| Tite Kubo's earliest influence is from Shigeru Mizuki's manga Gegege no Kitaro. He remembers trying to sketch its characters and found his own designs to be simpler than that of Mizuki's. He attributes his interest in drawing the supernatural and monsters to Shigeru Mizuki's GeGeGe no Kitaro. 
+53,51| Kubo attributes Bleach's focus on interesting weaponry and battle scenes to Masami Kurumada's Saint Seiya. 
+8,51| Kubo stated that Akira Toriyama's Dragon Ball taught him that all villains must be "strong, scary and cool" without exception, and added that to this day no fight scene has shocked him more than Trunks' first appearance. 
