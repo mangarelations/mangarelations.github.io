@@ -71,7 +71,7 @@ function main(container) {
             var parent = graph.getDefaultParent();
             layout.execute(parent);
         }));
-        
+
         let insutructions = document.createElement("span")
         insutructions.innerText = "Click and drag to move, scroll to zoom. Double click arrows for info on connection.";
         insutructions.style.paddingLeft = "15%";
@@ -235,7 +235,10 @@ function parse(graph, filename) {
     }
 };
 
-function resetStyles(graph, cells) {
+function resetStylesKeepHighlight(graph, cells) {
+    for (const cell of highlightedCells) {
+        cells = removeFromArray(cells, cell);
+    }
     graph.setCellStyle(globalStyle, cells);
 }
 
@@ -252,7 +255,7 @@ function navigateToRandomCell(graph) {
 
 
     let cells = graph.getChildVertices(graph.getDefaultParent());
-    resetStyles(graph, cells);
+    resetStylesKeepHighlight(graph, cells);
 
     //get values of random cell
     let randomCell = cells[Math.floor(Math.random() * cells.length)];
