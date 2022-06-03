@@ -52,6 +52,8 @@
 52| <b style="font-size: 24px;color: #06113C;">水木 しげる</b><br><b style="font-size: 24px;color: #06113C;">Shigeru Mizuki</b><br><b>Debut Year:</b> 1957<br><b>Manga:</b> GeGeGe no Kitarō, Onward Towards Our Noble Deaths, Akuma-kun, Shigeru Mizuki's Hitler
 53| <b style="font-size: 24px;color: #06113C;">車田 正美</b><br><b style="font-size: 24px;color: #06113C;">Masami Kurumada</b><br><b>Debut Year:</b> 1974<br><b>Manga:</b> Saint Seiya, Ring ni Kakero, Fūma no Kojirō, B't X
 54| <b style="font-size: 24px;color: #06113C;">森恒二</b><br><b style="font-size: 24px;color: #06113C;">Kouji Mori</b><br><b>Debut Year:</b> 2000<br><b>Manga:</b> Holyland, Suicide Island, Young Animal
+55| <b style="font-size: 24px;color: #06113C;">羽海野 チカ</b><br><b style="font-size: 24px;color: #06113C;">Chica Umino</b><br><b>Debut Year:</b> 1995<br><b>Manga:</b> March Comes In like a Lion, Honey and Clover
+56| <b style="font-size: 24px;color: #06113C;">萩尾 望都</b><br><b style="font-size: 24px;color: #06113C;">Moto Hagio</b><br><b>Debut Year:</b> 1969<br><b>Manga:</b> The Heart of Thomas, They Were Eleven, A Cruel God Reigns, The Poe Clan
 
 
 # Edges (source-id,target-id: label)
@@ -118,3 +120,6 @@
 53,51| Kubo attributes Bleach's focus on interesting weaponry and battle scenes to Masami Kurumada's Saint Seiya. 
 8,51| Kubo stated that Akira Toriyama's Dragon Ball taught him that all villains must be "strong, scary and cool" without exception, and added that to this day no fight scene has shocked him more than Trunks' first appearance. 
 28,54| Mori was friends with Miura in high school, and they would write manga together. 
+56,55| Umino used to use Haigo's work as an example when learning to draw.  She also modeled "Hagu-chan" from "Honey and Clover" after "Maribel" from "The Poe Clan". 
+13,56| Hagio wanted to become a mangaka after reading Osamu Tezuka's manga Shinsen-gumi at the age of about 17 
+46,56| Hagio has said that Angel's egg is her favorite work of all time. 
